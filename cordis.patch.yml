@@ -1,0 +1,8 @@
+# dsh-clean-search —— DSH bundle patch
+# 把本插件插入 profile 的配置树（挂载声明）。
+# 本地开发安装：dsh plugin --profile desktop add link:<本目录绝对路径>
+# （桌面端 profile 由 Electron 独占管理时，改为手改 package.json + pnpm install）
+
+- insert:
+    - id: dsh-clean-search
+      name: dsh-clean-search
