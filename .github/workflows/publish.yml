@@ -19,4 +19,7 @@ jobs:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
           package-manager-cache: false
+      - name: Upgrade npm for trusted publishing (OIDC)
+        run: npm install -g npm@latest
+      - run: npm --version
       - run: npm publish
