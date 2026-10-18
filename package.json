@@ -1,0 +1,40 @@
+{
+  "name": "dsh-clean-search",
+  "version": "1.0.0",
+  "description": "Bing 直连干净搜索 provider：直连 cn.bing.com，代码过滤导航/页脚/广告，只把标题、链接、摘要喂给模型的 web_search 后端",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "search",
+    "bing"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "HuberLin2023",
+    "url": "https://github.com/HuberLin2023"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuberLin2023/dsh-clean-search.git"
+  },
+  "homepage": "https://github.com/HuberLin2023/dsh-clean-search#readme",
+  "bugs": {
+    "url": "https://github.com/HuberLin2023/dsh-clean-search/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
